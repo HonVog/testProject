@@ -58,7 +58,7 @@ let employees = [
         'post': 'Кладовщик',
         'status': false,
         'dateSatart': '05.09.2022',
-        'position': 'Грузчик',
+        'position': 'Склад',
         'dataEnd': '05.09.2022'
     },
     {
