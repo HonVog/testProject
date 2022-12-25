@@ -1,0 +1,15 @@
+<div class="Test-Main__wrapper full-screen flex">
+    <div class="Test-Main__dicor flex flex-justify-center flex-item-start">
+        <div class="Test-Main__dicor-heard">
+            <i class="bi bi-heart-fill"
+                style="position: absolute; font-size: 33px; width: 33.12px; height: 30.54px; left: 7.45px; top: 10.66px;">
+            </i>
+            <span class="Test-Main__dicor-plus"> <strong>+</strong></span>
+        </div>
+    </div>
+    <div class="Test-Main__jobs full-size">
+        <test-hed @checInput="checInput" />
+        <test-body :ofises="ofises" :employ='employ' @rolClick="rolClick" @checkboxOll="checkboxOll"
+            @checkboxEl="checkboxEl" @delEl="delEl" @delOfis="delOfis" />
+    </div>
+</div>

@@ -1,0 +1,47 @@
+@import '../../../assets/base-value.scss';
+
+.test-colon-style {
+  position: relative;
+  border-bottom: 1px solid #DBDADA;
+  margin-bottom: 7px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+
+  label {
+    margin-left: 16px;
+  }
+}
+
+.el-1 {
+  grid-column-start: 1;
+}
+
+.el-2 {
+  grid-column-start: 2;
+}
+
+.el-3 {
+  grid-column-start: 3;
+}
+
+.el-4 {
+  grid-column-start: 4;
+}
+
+.el-5 {
+  grid-column-start: 5;
+}
+
+.el-6 {
+  justify-self: end;
+  grid-column-start: 6;
+}
+
+.color-red {
+  color: $base-color;
+}
+
+.color-oraj {
+  color: $status-text-color
+}

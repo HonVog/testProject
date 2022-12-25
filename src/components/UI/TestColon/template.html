@@ -1,0 +1,27 @@
+<div class='test-colon-style full-width'>
+    <div class="el-1">
+        <input type="checkbox" :id="baseColon.value" :value="baseColon.value" v-model="baceChecbox"
+            @input="this.$emit('clickChecbox', !baceChecbox)">
+        <label :for="baseColon.baceChecbox">
+            {{baseColon.value}}
+        </label>
+    </div>
+    <div class="el-2">
+        {{baseColon.post}}
+    </div>
+    <div class="el-3" v-if="typeof baseColon.status === 'boolean' ">
+        <span class="color-oraj" v-if="baseColon.status">Проходит</span>
+        <span class="color-red" v-else>Не проходит</span>
+    </div>
+    <div v-else class="el-3">
+        {{ baseColon.status }}
+    </div>
+    <div class=" el-4">
+        {{ baseColon.dateSatart }}
+    </div>
+    <div class="el-5">
+        {{ baseColon.dataEnd }}
+    </div>
+    <slot class="el-6">
+    </slot>
+</div>

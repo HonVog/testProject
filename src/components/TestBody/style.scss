@@ -1,0 +1,41 @@
+@import '../../assets/base-value.scss';
+
+.Test-Body_ {
+  &_wrapper {
+    margin-top: 30px;
+    position: relative;
+    max-height: 40vw;
+  }
+
+  &_counter {
+    padding-bottom: 7px;
+    color: black;
+    border-bottom: 1px solid #DBDADA;
+    min-height: 53px;
+  }
+
+  &_hedColon {
+    min-height: 53px;
+    color: $base-color;
+  }
+
+  &_litl_btn {
+    &-red {
+      max-width: 12px;
+      max-height: 12px;
+      margin-right: 10px;
+      color: $base-color;
+    }
+
+    &-blue {
+      max-width: 12px;
+      max-height: 12px;
+      margin-right: 10px;
+      color: $dop-color;
+    }
+  }
+
+  &_employ {
+    margin-top: 12px;
+  }
+}

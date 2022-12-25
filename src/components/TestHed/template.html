@@ -1,0 +1,45 @@
+<div class="Test-Hed__wrapper">
+    <div class="Test-Hed__hed flex flex-item-center flex-justify-between">
+        <h2>Сотрудники</h2>
+        <div class="Test-Hed__hed-label flex flex-item-center">
+            <div class="Test-Hed__hed-label-icon flex flex-center">
+                <strong>O</strong>
+            </div>
+            <span>ООО «Модуль»</span>
+        </div>
+    </div>
+    <div class="Test-Hed__button flex flex-item-center flex-justify-between">
+        <div class="Test-Hed__button-red flex flex-item-center flex-justify-between">
+            <test-button class="Test-Hed__button-red_bec">
+                <i class="bi bi-person"></i>
+                <i class="bi bi-plus"></i>
+                Добавить сотрудника
+            </test-button>
+            <test-button class="Test-Hed__button-red_border">
+                <i class="bi bi-plus-circle"></i>
+                Создать новый отдел
+            </test-button>
+        </div>
+        <div class="flex flex-item-center flex-justify-between">
+            <test-button class="Test-Hed__button-blue">
+                Скачать список прошедших
+            </test-button>
+            <test-button class="Test-Hed__button-blue">
+                Экспорт
+            </test-button>
+            <test-button class="Test-Hed__button-blue">
+                <i class="bi bi-capslock-fill"></i>
+                Загрузить списком
+            </test-button>
+        </div>
+    </div>
+
+    <div class="Test-Hed__form flex">
+        <div class="Test-Hed__form-input flex">
+            <input class="full-size" v-model="inputValue" type="text" placeholder="Поиск по ФИО">
+            <test-button class="Test-Hed__form-btn" @click="checInput">
+                <i class="bi bi-search" style="width: 16px; height: 16px;"></i>
+            </test-button>
+        </div>
+    </div>
+</div>

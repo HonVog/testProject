@@ -1,0 +1,129 @@
+@import '../../assets/base-value.scss';
+
+.Test-Hed_ {
+  &_wrapper {
+    max-height: 32.46%;
+    min-height: 229px;
+    position: relative;
+    color: $base-text-color;
+  }
+
+  &_hed {
+    margin-top: 47px;
+
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    &-label {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+
+      &-icon {
+        min-width: 24px;
+        min-height: 24px;
+        background: $base-color;
+        border-radius: 50%;
+        color: white;
+        margin-right: 8px;
+
+        strong {
+          font-style: normal;
+          font-weight: 900;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  &_button {
+    margin-top: 36px;
+
+    &-red {
+
+      &_bec {
+        min-width: 180px;
+        min-height: 40px;
+        background: $base-color;
+        margin-right: 15px;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        position: relative;
+
+        i {
+          margin-right: 8px;
+        }
+
+        i:not(:first-child) {
+          color: white;
+          position: absolute;
+          left: 13.89%;
+          right: 82.78%;
+          top: 18.5%;
+          bottom: 52.5%;
+        }
+      }
+
+      &_border {
+        min-width: 180px;
+        min-height: 40px;
+        border: 1px solid $base-color;
+        color: $base-color;
+
+        i {
+          margin-right: 8px;
+        }
+      }
+
+    }
+
+    &-blue {
+      background: $dop-color;
+      margin-right: 8px;
+      color: white;
+      padding: 8px 16px;
+      min-height: 40px;
+
+      i {
+        font-size: 0.7rem;
+        margin-right: 8px;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+
+
+  &_form {
+    margin-top: 30px;
+
+    &-input {
+      position: relative;
+      margin: 0;
+      min-width: 304px;
+      min-height: 40px;
+
+      input {
+        padding: 9px 12px;
+      }
+    }
+
+    &-btn {
+      max-width: 16px;
+      max-height: 16px;
+      border-radius: 50%;
+      position: absolute;
+      color: $dop-color;
+      left: -10%;
+      top: 12px;
+    }
+  }
+
+}

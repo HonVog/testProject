@@ -1,0 +1,42 @@
+@import '../../assets/base-value.scss';
+
+.Test-Main_ {
+  &_wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &_dicor {
+    min-width: 88px;
+    max-width: 10%;
+    height: 100%;
+    border-left: 1px solid #DBDADA;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    &-heard {
+      margin-top: 48px;
+      min-width: 48px;
+      min-height: 48px;
+      background-color: #CA013C;
+      border-radius: 50%;
+      color: $base-color;
+      position: relative;
+    }
+
+    &-plus {
+      position: absolute;
+      font-size: 1.5rem;
+      color: white;
+      left: 35%;
+      top: 34%;
+    }
+  }
+
+  &_jobs {
+    margin-left: 138px;
+    margin-right: 43px;
+  }
+}
